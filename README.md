@@ -12,10 +12,15 @@ Tested with:
  Connections:
  
  Feather HUZZAH ESP8266  GND to MAX31856 GND
+ 
  Feather HUZZAH ESP8266  3.3V output to MAX31856 Vin (voltage input)
+ 
  Feather HUZZAH ESP8266  SCK (serial clock, GPIO14) to MAX31856 SCK (serial clock)
+ 
  Feather HUZZAH ESP8266  MISO (master input, GPIO12) to MAX31856 SDO (serial data output)
+ 
  Feather HUZZAH ESP8266  MOSI (master output, GPIO13) to MAX31856 SDI (serial data input) 
+ 
  Feather HUZZAH ESP8266  GPIO15 to MAX31856 CS (chip select)
  
  

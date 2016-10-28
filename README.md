@@ -1,5 +1,5 @@
 # max31856
-MicroPython Library for new MAX31856 (Precision Thermocouple to Digital Converter with Linearization) with 19-Bit Thermocouple Temperature Resolution. This chip provides a SPI digital interface for Thermocouple Types B, E, J, K, N, R, S or T. 
+MicroPython Library for MAX31856 (Precision Thermocouple to Digital Converter with Linearization) with 19-Bit Thermocouple Temperature Resolution. This chip provides a SPI digital interface for Thermocouple Types B, E, J, K, N, R, S or T. 
 
 A "ripoff" of the original work of Stephen P. Smith. Original code is here: https://github.com/steve71/MAX31856
 

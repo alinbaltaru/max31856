@@ -21,19 +21,6 @@ Tested with:
  
 To upload the module on ESP8266 use (on MacOS) "ampy --port /dev/tty.SLAB_USBtoUART put max31856.py" or WebREPL: https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html#webrepl-web-browser-interactive-prompt
 
-Example code to test the MAX31586 on ESP8266:
-
-import time
-csPin = 15
-max = max31856.max31856(csPin)
-while True:
- thermoTempC = max.readThermocoupleTemp()
- print ("Thermocouple Temp: %f degC" % thermoTempC)
- juncTempC = max.readJunctionTemp()
- print ("Cold Junction Temp: %f degC" % juncTempC)
- time.sleep(1)
-
-
 
 
 
